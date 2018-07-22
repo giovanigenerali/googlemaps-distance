@@ -1,0 +1,86 @@
+body {
+  font-family: Arial;
+  padding: 1rem;
+}
+h1 {
+  font-size: 22px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.control {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.row_address {
+  display: flex;
+  margin-bottom: 10px;
+}
+.wrapper_address {
+  position: relative;
+  display: flex;
+  width: 100vw;
+}
+input,
+button {
+  font-family: Arial;
+  font-size: 12px;
+  border: 1px solid #4285f4;
+  padding: 8px;
+  outline: none;
+}
+input {
+  background: #fff;
+  width: 100%;
+}
+input:focus {
+  background: #fafafa;
+}
+input::selection {
+  background: #ffecb3;
+}
+button {
+  background: #4285f4;
+  border-radius: 0;
+  color: #fff;
+  cursor: pointer;
+}
+.show_distance {
+  color: #4285f4 !important;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  height: 32px;
+  font-size: 12px !important;
+  padding: 0 8px 0 6px;
+  top: 0;
+  line-height: 32px;
+  text-align: right;
+  pointer-events: all !important;
+  display: block;
+  text-decoration: none;
+}
+.show_distance:hover,
+.show_distance:hover .km-label {
+  color: #fff !important;
+  background:#4285f4;
+  text-decoration: none;
+}
+.show_distance .km-label,
+.total_distance .km-label {
+  font-size: 12px !important;
+  font-weight: bold;
+  padding: 0 0 0 4px;
+}
+.show_distance .km-label.empty {
+  color: red;
+  font-size: 14px !important;
+}
+.total_distance {
+  color: #4285f4 !important;
+  font-size: 12px !important;
+  padding: 0 8px 0 6px;
+  display: inline-block;
+}
