@@ -5,7 +5,6 @@
 
 Multiple inputs using autocomplete, street number validatio (Brazilian address) and distance calculation.
 
-# Screenshot
 ![screenshot](screenshot.gif)
 
 # Live Preview
