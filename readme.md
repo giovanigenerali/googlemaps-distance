@@ -1,7 +1,7 @@
 
 # Google Maps Calculate Distance
 
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/wgenial/googlemaps-calculate-distance/pulls)
 
 Multiple inputs using autocomplete, street number validatio (Brazilian address) and distance calculation.
 
