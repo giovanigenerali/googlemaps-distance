@@ -8,9 +8,6 @@ Multiple addresses ([place autocomplete](https://developers.google.com/places/we
 
 ![screenshot](screenshot.gif)
 
-# Live Preview
-http://htmlpreview.github.io/?https://github.com/wgenial/googlemaps-calculate-distance/blob/master/index.html
-
 # JSFiddle
 https://jsfiddle.net/giovanigenerali/9w3vuoqf/
 
